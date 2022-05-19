@@ -1,0 +1,48 @@
+.sucursal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__titulo {
+        @extend .title
+    }
+
+    &__h1 {
+        display: block;
+        font-size: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__mapa {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.local {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    &__div {
+        margin: 10px 0;
+    }
+
+    &__div--span {
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .local {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

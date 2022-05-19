@@ -1,0 +1,11 @@
+.contacto {
+    &__titulo {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 8%;
+
+        &--h1 {
+            font-size: 50px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+$mainColor: #FFAD2C;
+$border: solid #B6500E 5px;
+
+$editorial__div--tit: (
+    ivrea: #F21735,
+    panini: #FFF02A,
+    ovni: #000
+);
+
+$recomienda: (
+        alto: auto,
+        largo: auto,
+        punto: pointer,
+    );
+
+.title {
+    display: block;
+    padding-left: 8%;
+    font-weight: 500;
+}
+
+@mixin manga ($scale) {
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale($scale);
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Tercera entrega de proyecto final. Tienda/Blog de mangas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/estilos.scss ./css/estilos.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximoguzmann/ProyectoFinal-Guzman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximoguzmann/ProyectoFinal-Guzman/issues"
+  },
+  "homepage": "https://github.com/maximoguzmann/ProyectoFinal-Guzman#readme"
+}
